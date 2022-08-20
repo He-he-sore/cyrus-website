@@ -1,0 +1,96 @@
+h2 {
+    color:skyblue;
+    background-color:darkblue;
+    text-align:center;
+    font-size: 5vw;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+ol {
+    background-color:royalblue;
+}
+li {
+    background-color:cornflowerblue;
+}
+
+#navbar {
+    background-color:cornflowerblue;
+    border-style:solid;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    position: sticky;
+    top:0px;
+    color: red;
+}
+#navbar:hover {
+    color: green;
+}
+
+#navbar th {
+    border-style:solid;
+}
+
+body {
+    background-image: url(../img/tanqr3.jpg);
+    font-family:"segoe UI",Tahoma, sans-serif;
+}
+header {
+    background-color:rgb(4, 255, 71);
+    color: #FFFAFF;
+    text-align:center;
+    font-size: 50px;
+    border: 3px solid #FFFAFF;
+}
+.navbar th {
+    border: solid #000800;
+    padding: 5px;
+}
+footer {
+    background-color: #000080;
+    color:#FFFAFF;
+    font-size: 12px;
+    border: 3px solid #FFFAFF;
+    padding-left: 5px;
+}
+body {
+    background-image: url(../img/tanqr3.jpg)
+}
+.profile{
+    background-color:blue;
+    text-align:center;
+}
+.even-row{
+    background-color:#5765A5
+}
+.navbar {
+    background-color:#FFFAFF;
+    border: solid #000080;
+    font-size: 20px;
+    position: sticky;
+    top:0px;
+}
+a:hover{
+    color:blue
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFAFF;
+    color:#000080;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+    background-color:lightcoral;
+}
+a {
+    color:navy;
+    text-decoration: none;
+}
